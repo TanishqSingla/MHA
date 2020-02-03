@@ -21,6 +21,7 @@ header p {
 header img {
   margin: 0 auto;
   border-radius: 60px;
+  float: left;
 }
 
 div {
@@ -28,7 +29,12 @@ div {
   color: white;
 }
 
+div img {
+  float: right;
+}
+
 #instagram {
   color: #fff;
+  margin-top: 100px;
 }
 /*# sourceMappingURL=style.css.map */
