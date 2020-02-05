@@ -1,5 +1,5 @@
 body {
-  background: black;
+  background: #2c2828;
   text-align: center;
   color: white;
 }
@@ -21,20 +21,11 @@ header p {
 header img {
   margin: 0 auto;
   border-radius: 60px;
-  float: left;
 }
 
 div {
   font-family: cursive;
   color: white;
-}
-
-div img {
-  float: right;
-}
-
-#instagram {
-  color: #fff;
-  margin-top: 100px;
+  padding: 50px;
 }
 /*# sourceMappingURL=style.css.map */
