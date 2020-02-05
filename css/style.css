@@ -1,7 +1,7 @@
 body {
   background: black;
-  text-align: center;
   color: white;
+  text-align: center;
 }
 
 header {
@@ -11,36 +11,38 @@ header {
 header h1 {
   font-size: 30px;
   font-weight: 100;
-  -webkit-transition: 0.6s ease;
-  transition: 0.6s ease;
-}
-
-header h1:hover {
-  color: blue;
 }
 
 header p {
-  font-size: 20px;
   font-family: cursive;
+  font-size: 20px;
 }
 
 header img {
-  margin: 0 auto;
   border-radius: 60px;
-  float: left;
+  margin: 0 auto;
 }
 
 div {
-  font-family: cursive;
   color: white;
-}
-
-div img {
-  float: right;
+  font-family: cursive;
 }
 
 #instagram {
   color: #fff;
   margin-top: 100px;
+}
+
+footer #social a {
+  color: white;
+  text-decoration: none;
+}
+
+footer #social .fa-facebook:hover {
+  color: #3578e5;
+}
+
+footer #social .fa-discord:hover {
+  color: #7289da;
 }
 /*# sourceMappingURL=style.css.map */
