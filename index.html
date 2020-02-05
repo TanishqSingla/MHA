@@ -2,18 +2,23 @@
 <html>
   <head>
     <title>My Hero Academia</title>
-    <link
-      href="https://fonts.googleapis.com/css?family=Sigmar+One&display=swap"
-      rel="stylesheet"
-    />
     <script
       src="https://kit.fontawesome.com/f276627d0a.js"
       crossorigin="anonymous"
     ></script>
     <link href="css/style.css" rel="stylesheet" type="text/CSS" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Sigmar+One&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
+      <nav class="slide">
+        <div id="box" class="rotate" onclick="slide(); rotate();"></div>
+        <button>Sign In</button>
+        <button>Sign Up</button>
+      </nav>
       <h1>MY HERO ACADEMIA | 僕ぼくのヒーローアカデミア</h1>
       <img src="images\mha1.jpg" width="300" height="400" />
     </header>
@@ -25,7 +30,6 @@
     </p>
     <div>
       <img src="images\deku.png" />
-      <a href="https://www.instgram.com/luv._.01" id="instagram">Instagram</a>
     </div>
     <footer>
       <div id="social">
@@ -33,5 +37,7 @@
         <a href="" class="fab fa-discord fa-2x"></a>
       </div>
     </footer>
+
+    <script src="js/index.js"></script>
   </body>
 </html>

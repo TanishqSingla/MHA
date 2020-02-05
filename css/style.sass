@@ -4,6 +4,39 @@ body
     text-align: center //align every elements to center
 header 
     font-family: "Sigmar One", cursive //sets the font family to Sigmar one of text elements inside header
+    nav
+        position: fixed
+        transition: .6s ease-in
+        #box
+            border-bottom: 1px solid #fff
+            border-left: 1px solid #fff
+            left: -25px
+            top: 6px
+            height: 20px
+            width: 20px
+            position: absolute
+            cursor: pointer
+            transition: .6s ease-in
+        .rotate
+            transform: rotatez(45deg)
+        .rotated
+            transform: rotate(225deg)
+        button
+            border: solid 1px white
+            background: none
+            height: 35px
+            width: 100px
+            margin: 0 2.5px
+            color: white
+            font-weight: bolder
+            transition: .4s ease-in
+            &:hover
+                background: #fff
+                color: #000
+    .slide
+        right: -14%
+    .slided
+        right: 20px
     h1
         font-size: 30px
         font-weight: 100 //sets font weight i.e light/bold etc
@@ -16,10 +49,6 @@ header
 div 
     color: white
     font-family: cursive
-#instagram 
-    color: #fff
-    margin-top: 100px
-
 footer 
     #social
         a 
