@@ -6,7 +6,7 @@ header
     font-family: "Sigmar One", cursive //sets the font family to Sigmar one of text elements inside header
     nav
         position: fixed
-        transition: .6s ease-in
+        transition: .6s cubic-bezier(0.63, 1.26, 0.85, 1.26)
         #box
             border-bottom: 1px solid #fff
             border-left: 1px solid #fff
@@ -16,7 +16,7 @@ header
             width: 20px
             position: absolute
             cursor: pointer
-            transition: .6s ease-in
+            transition: .2s ease-in
         .rotate
             transform: rotatez(45deg)
         .rotated
@@ -44,7 +44,7 @@ header
         font-family: cursive
         font-size: 20px 
     img 
-        border-radius: 60px
+        border-radius: 20px
         margin: 0 auto //sets top and bottom margin to 0 and left and right margin to auto
 div 
     color: white
@@ -54,6 +54,7 @@ footer
         a 
             color: white
             text-decoration: none
+            transition: .4s ease-in-out
         .fa-facebook
             &:hover
                 color: #3578e5
