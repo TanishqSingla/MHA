@@ -1,43 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>My Hero Academia</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
     <script
-      src="https://kit.fontawesome.com/f276627d0a.js"
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
       crossorigin="anonymous"
     ></script>
-    <link href="css/style.css" rel="stylesheet" type="text/CSS" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Sigmar+One&display=swap"
-      rel="stylesheet"
-    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title></title>
   </head>
   <body>
-    <header>
-      <nav class="slide">
-        <div id="box" class="rotate" onclick="slide(); rotate();"></div>
-        <button>Sign In</button>
-        <button>Sign Up</button>
-      </nav>
-      <h1>MY HERO ACADEMIA | 僕ぼくのヒーローアカデミア</h1>
-      <img src="images\mha1.jpg" width="300" height="400" />
-    </header>
-    <p>
-      "Boku no Hīrō Akademia" is a Manga series serialized by Shonen Jump and
-      written by Kohei Horikoshi. The series has been adapted into an Anime
-      series and an Anime Movie, as well as spawning the Spinoff series My Hero
-      Academia Vigilantes.
-    </p>
-    <div>
-      <img src="images\deku.png" />
-    </div>
-    <footer>
-      <div id="social">
-        <a href="" class="fab fa-facebook fa-2x"></a>
-        <a href="" class="fab fa-discord fa-2x"></a>
+    <!-- This is the navbar for the website -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Navbar w/ text</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarText"
+        aria-controls="navbarText"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+        </ul>
+        <span class="navbar-text">
+          Navbar text with an inline element
+        </span>
       </div>
-    </footer>
-
+    </nav>
     <script src="js/index.js"></script>
   </body>
 </html>
