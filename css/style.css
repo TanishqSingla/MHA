@@ -8,6 +8,60 @@ header {
   font-family: "Sigmar One", cursive;
 }
 
+header nav {
+  position: fixed;
+  -webkit-transition: 0.6s cubic-bezier(0.63, 1.26, 0.85, 1.26);
+  transition: 0.6s cubic-bezier(0.63, 1.26, 0.85, 1.26);
+}
+
+header nav #box {
+  border-bottom: 1px solid #fff;
+  border-left: 1px solid #fff;
+  left: -25px;
+  top: 6px;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  cursor: pointer;
+  -webkit-transition: .2s ease-in;
+  transition: .2s ease-in;
+}
+
+header nav .rotate {
+  -webkit-transform: rotatez(45deg);
+          transform: rotatez(45deg);
+}
+
+header nav .rotated {
+  -webkit-transform: rotate(225deg);
+          transform: rotate(225deg);
+}
+
+header nav button {
+  border: solid 1px white;
+  background: none;
+  height: 35px;
+  width: 100px;
+  margin: 0 2.5px;
+  color: white;
+  font-weight: bolder;
+  -webkit-transition: .4s ease-in;
+  transition: .4s ease-in;
+}
+
+header nav button:hover {
+  background: #fff;
+  color: #000;
+}
+
+header .slide {
+  right: -14%;
+}
+
+header .slided {
+  right: 20px;
+}
+
 header h1 {
   font-size: 30px;
   font-weight: 100;
@@ -19,7 +73,7 @@ header p {
 }
 
 header img {
-  border-radius: 60px;
+  border-radius: 20px;
   margin: 0 auto;
 }
 
@@ -28,14 +82,11 @@ div {
   font-family: cursive;
 }
 
-#instagram {
-  color: #fff;
-  margin-top: 100px;
-}
-
 footer #social a {
   color: white;
   text-decoration: none;
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
 }
 
 footer #social .fa-facebook:hover {
