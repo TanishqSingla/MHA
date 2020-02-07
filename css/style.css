@@ -1,1 +1,10 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+nav .navbar-brand {
+  font-family: "Sigmar One", cursive;
+}
+
+nav .navbar-brand img {
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+}
+/*# sourceMappingURL=style.css.map */
