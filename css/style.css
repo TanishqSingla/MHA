@@ -17,4 +17,14 @@ nav {
 nav * {
   display: inline-block;
 }
+
+nav #logo a {
+  color: white;
+  font-weight: bold;
+}
+
+nav form {
+  position: absolute;
+  right: 20px;
+}
 /*# sourceMappingURL=style.css.map */
