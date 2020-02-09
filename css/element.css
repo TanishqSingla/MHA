@@ -30,6 +30,8 @@ button {
   border-radius: 5px;
   cursor: pointer;
   font-weight: bold;
+  -webkit-transition: .2s ease-in;
+  transition: .2s ease-in;
 }
 
 button:hover {
@@ -47,5 +49,14 @@ input[type="text"] {
 
 input[type="text"]:focus {
   outline: none;
+}
+
+h4 {
+  color: #cdffe6;
+}
+
+hr {
+  margin: 10px 5px;
+  border: solid 1px #47ffe04f;
 }
 /*# sourceMappingURL=element.css.map */

@@ -33,4 +33,26 @@ header nav form {
   position: absolute;
   right: 20px;
 }
+
+#content {
+  background: #222;
+  margin: 20px 40px;
+  padding: 2px 0;
+  width: 60%;
+}
+
+#content figure {
+  margin: 0 2px;
+  height: 250px;
+}
+
+#content figure img {
+  height: 100%;
+  width: 100%;
+}
+
+#content h4 {
+  border-radius: 3px;
+  margin: 5px 0 0 2px;
+}
 /*# sourceMappingURL=style.css.map */
