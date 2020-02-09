@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Sigmar+One&display=swap");
 body {
   overflow-x: hidden;
   padding: 0;
@@ -6,7 +7,12 @@ body {
   font-family: "Sigmar One", cursive;
 }
 
-nav {
+header {
+  margin: 0;
+  padding: 0;
+}
+
+header nav {
   margin: 0;
   background: #343a40;
   width: 100%;
@@ -14,16 +20,16 @@ nav {
   padding: 30px 20px;
 }
 
-nav * {
+header nav * {
   display: inline-block;
 }
 
-nav #logo a {
+header nav #logo a {
   color: white;
   font-weight: bold;
 }
 
-nav form {
+header nav form {
   position: absolute;
   right: 20px;
 }
