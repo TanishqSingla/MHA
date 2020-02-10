@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Sigmar+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 body {
   overflow-x: hidden;
-  background: #1d2024;
+  background: #252525;
   padding: 0;
   margin: 0;
   font-family: "Sigmar One", cursive;
@@ -35,15 +36,15 @@ header nav form {
 }
 
 #content {
-  background: #222;
+  background: #232931;
   margin: 20px 40px;
-  padding: 2px 0;
-  width: 60%;
+  padding: 5px 5px;
+  width: 55%;
 }
 
 #content figure {
   margin: 0 2px;
-  height: 250px;
+  height: 300px;
 }
 
 #content figure img {
@@ -51,8 +52,9 @@ header nav form {
   width: 100%;
 }
 
-#content h4 {
-  border-radius: 3px;
-  margin: 5px 0 0 2px;
+#content .highlights p {
+  margin: 10px 40px 0 0px;
+  padding-left: 20px;
+  padding-right: 50px;
 }
 /*# sourceMappingURL=style.css.map */

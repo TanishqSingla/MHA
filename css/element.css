@@ -51,12 +51,42 @@ input[type="text"]:focus {
   outline: none;
 }
 
-h4 {
+#content h4 {
   color: #cdffe6;
+  background-color: #424242;
+  margin: 6px 0px;
+  border-radius: 5px;
+  padding-left: 4px;
+  font-weight: lighter;
 }
 
-hr {
-  margin: 10px 5px;
-  border: solid 1px #47ffe04f;
+#social ul {
+  list-style-type: none;
+}
+
+#social ul li {
+  display: inline;
+}
+
+.fa-facebook:hover {
+  color: #3578e5;
+}
+
+.fa-discord:hover {
+  color: #7289da;
+}
+
+.fa-twitter:hover {
+  color: #007bff;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  color: white;
+}
+
+p span {
+  color: #f4fcd1;
 }
 /*# sourceMappingURL=element.css.map */
