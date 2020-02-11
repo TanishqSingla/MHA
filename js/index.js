@@ -1,11 +1,9 @@
-function slide() {
-  var nav = document.querySelector("nav");
-  nav.classList.toggle("slide");
-  nav.classList.toggle("slided");
-}
+var pageLocation = window.location.href;
 
-function rotate() {
-  var box = document.getElementById("box");
-  box.classList.toggle("rotate");
-  box.classList.toggle("rotated");
+if (!pageLocation.includes("index")) {
+	document.getElementsByTagName("a")[1].classList.remove("active");
+} else if (!pageLocation.includes("explore")) {
+	document.getElementsByTagName("a")[2].classList.remove("active");
+} else if (!pageLocation.includes("community")) {
+	document.getElementsByTagName("a")[3].classList.remove("active");
 }
