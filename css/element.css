@@ -51,21 +51,14 @@ input[type="text"]:focus {
   outline: none;
 }
 
-<<<<<<< HEAD
-#content h4 {
-=======
 #content .info {
->>>>>>> ce80a04996d90111a811983a28df1e8db17ae02d
   color: #cdffe6;
   background-color: #424242;
   margin: 6px 0px;
   border-radius: 5px;
   padding-left: 4px;
   font-weight: lighter;
-<<<<<<< HEAD
-=======
   position: relative;
->>>>>>> ce80a04996d90111a811983a28df1e8db17ae02d
 }
 
 #social ul {
@@ -97,8 +90,6 @@ p {
 p span {
   color: #f4fcd1;
 }
-<<<<<<< HEAD
-=======
 
 #box {
   position: absolute;
@@ -131,5 +122,4 @@ p span {
 .show {
   display: block;
 }
->>>>>>> ce80a04996d90111a811983a28df1e8db17ae02d
 /*# sourceMappingURL=element.css.map */
