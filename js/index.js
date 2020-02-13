@@ -1,4 +1,13 @@
 var pageLocation = window.location.href;
+<<<<<<< HEAD
+
+if (!pageLocation.includes("index")) {
+	document.getElementsByTagName("a")[1].classList.remove("active");
+} else if (!pageLocation.includes("explore")) {
+	document.getElementsByTagName("a")[2].classList.remove("active");
+} else if (!pageLocation.includes("community")) {
+	document.getElementsByTagName("a")[3].classList.remove("active");
+=======
 
 if (!pageLocation.includes("index")) {
 	document.getElementsByTagName("a")[1].classList.remove("active");
@@ -21,4 +30,5 @@ function rotate() {
 		subInfo.classList.add("hide");
 		subInfo.classList.remove("show");
 	}
+>>>>>>> ce80a04996d90111a811983a28df1e8db17ae02d
 }
