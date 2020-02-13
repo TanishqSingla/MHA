@@ -58,6 +58,7 @@ input[type="text"]:focus {
   border-radius: 5px;
   padding-left: 4px;
   font-weight: lighter;
+  position: relative;
 }
 
 #social ul {
@@ -90,15 +91,35 @@ p span {
   color: #f4fcd1;
 }
 
-.box {
+#box {
   position: absolute;
+  top: 8px;
+  left: 5px;
   height: 10px;
   width: 10px;
   border-bottom: 1px solid white;
-  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+
+#box.rotate {
+  -webkit-transform: rotateZ(-45deg);
+          transform: rotateZ(-45deg);
+}
+
+#box.rotated {
+  -webkit-transform: rotateZ(45deg);
+          transform: rotateZ(45deg);
 }
 
 .sub {
-  padding-left: 10px;
+  margin-left: 20px;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
 }
 /*# sourceMappingURL=element.css.map */

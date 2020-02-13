@@ -7,3 +7,10 @@ if (!pageLocation.includes("index")) {
 } else if (!pageLocation.includes("community")) {
 	document.getElementsByTagName("a")[3].classList.remove("active");
 }
+
+var box = document.getElementById("box");
+
+function rotate() {
+	box.classList.toggle("rotate");
+	box.classList.toggle("rotated");
+}

@@ -42,6 +42,7 @@ input[type="text"]
         border-radius: 5px
         padding-left: 4px
         font-weight: lighter
+        position: relative
 #social
     ul
         list-style-type: none
@@ -62,11 +63,21 @@ p
     color: white
     span
         color: #f4fcd1
-.box
+#box
     position: absolute
+    top: 8px
+    left: 5px
     height: 10px
     width: 10px
     border-bottom: 1px solid white
-    border-left: 1px solid white
+    border-right: 1px solid white
+    &.rotate
+        transform: rotateZ(-45deg)
+    &.rotated
+        transform: rotateZ(45deg)
 .sub
-    padding-left: 10px
+    margin-left: 20px
+.hide
+    display: none
+.show
+    display: block
