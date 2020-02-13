@@ -1,71 +1,43 @@
-body 
-    background: black
-    color: white //sets default color of text to white
-    text-align: center //align every elements to center
-header 
-    font-family: "Sigmar One", cursive //sets the font family to Sigmar one of text elements inside header
+@import url('https://fonts.googleapis.com/css?family=Sigmar+One&display=swap')
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap')
+body
+    overflow-x: hidden
+    background: #252525
+    padding: 0
+    margin: 0
+    font-family: "Sigmar One", cursive
+header
+    margin: 0
+    padding: 0
     nav
-        position: fixed
-        transition: .6s cubic-bezier(0.63, 1.26, 0.85, 1.26)
-        #box
-            border-bottom: 1px solid #fff
-            border-left: 1px solid #fff
-            cursor: pointer
-            left: -25px
+        margin: 0
+        background: #343a40
+        width: 100%
+        height: 30px
+        padding: 30px 20px
+        *
+            display: inline-block
+        #logo
+            a
+                color: white
+                font-weight: bold
+        form
             position: absolute
-            height: 20px
-            top: 6px
-            transition: .2s ease-in
-            width: 20px
-        .rotate
-            transform: rotatez(45deg)
-        .rotated
-            transform: rotate(225deg)
-        button
-            background: none
-            border: solid 1px white
-            height: 35px
-            width: 100px
-            margin: 0 2.5px
-            color: white
-            font-weight: bolder
-            transition: .4s ease-in
-            &:hover
-                background: #fff
-                color: #000
-    .slide
-        right: -220px
-        positon: relative
-    .slided
-        right: 20px
-    h1
-        font-size: 30px
-        font-weight: 100 //sets font weight i.e light/bold etc
-    p 
-        font-family: cursive
-        font-size: 20px 
-    img 
-        border-radius: 20px
-        margin: 0 auto //sets top and bottom margin to 0 and left and right margin to auto
-div 
-    color: white
-    font-family: cursive
-footer 
-    #social
-        a 
-            color: white
-            text-decoration: none
-            transition: .4s ease-in-out
-        .fa-facebook
-            &:hover
-                color: #3578e5
-        .fa-discord
-            &:hover 
-                color: #7289da
+            right: 20px
 
-.chapter1
-    border: 2px solid white
-    margin-left: auto
-    margin-right: auto
-    width : 1000px
-    height : 500px
+#content
+    background: #232931
+    margin: 20px 40px
+    padding: 5px 5px
+    width: 55%
+    figure
+        margin: 0 2px
+        height: 300px
+        img
+            height: 100%
+            width: 100%
+    .highlights
+        p
+            margin: 10px 40px 0 0px
+            padding-left: 20px
+            padding-right: 50px
