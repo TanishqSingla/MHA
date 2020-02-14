@@ -1,3 +1,4 @@
+/** The element.sass is design the elements of the html **/
 a
     text-decoration: none
     color: #ffffff80
@@ -13,41 +14,44 @@ ul
     font-weight: bold
 
 button
-    height: 35px
-    width: 90px
-    text-align: center
-    color: #008cff
     background: none
     border: solid 1px #008cff
     border-radius: 5px
+    color: #008cff
     cursor: pointer
     font-weight: bold
+    height: 35px
+    text-align: center
     transition: .2s ease-in
+    width: 90px
     &:hover
         color: white
         background: #008cff
 input[type="text"]
-        height: 35px
-        width: 220px
-        border-radius: 10px
         border: none
+        border-radius: 10px
+        height: 35px
         padding-left: 5px
+        width: 220px
         &:focus
             outline: none
 #content
     .info
-        color: #cdffe6
         background-color: #424242
-        margin: 6px 0px
         border-radius: 5px
-        padding-left: 4px
+        color: #cdffe6
+        margin: 6px 0px
         font-weight: lighter
+        padding-left: 4px
         position: relative
 #social
     ul
         list-style-type: none
         li
             display: inline
+/** 
+ The .fa are the font-awesome icons used in the footer like the facebook logo
+ **/
 .fa-facebook
     &:hover
         color: #3578e5
@@ -58,19 +62,19 @@ input[type="text"]
     &:hover
         color: #007bff
 p
+    color: white
     font-family: 'Open Sans', sans-serif
     font-weight: lighter
-    color: white
     span
         color: #f4fcd1
 #box
-    position: absolute
-    top: 8px
-    left: 5px
-    height: 10px
-    width: 10px
     border-bottom: 1px solid white
     border-right: 1px solid white
+    height: 10px
+    left: 5px
+    position: absolute
+    top: 8px
+    width: 10px
     &.rotate
         transform: rotateZ(-45deg)
     &.rotated
